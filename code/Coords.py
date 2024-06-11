@@ -25,8 +25,14 @@ def Coords(planet, boundary, x=False, y=False, z=False, p_dyn=False, model=''):
     import logging
     
     import Jupiter_Coords
+    import Mars_Coords
+    
+    def Charlie_Issue():
+        
+        print("Charlie's issue solved")
     
     logger = logging.getLogger(__name__)
+    print("I love IDL so much.. CMJ")
     
     #   Check which planet we're looking at
     #   I'd much rather use match/case, but Spyder/PyFlakes linting is still...
@@ -48,6 +54,8 @@ def Coords(planet, boundary, x=False, y=False, z=False, p_dyn=False, model=''):
         #
         pass
     else:
-        msg = '{1} is not a recognized/supported! Returning...'
+        msg = '{1} is not a recognized/supported! Returning...'#............
         logger.warning(msg.format(planet))
         return
+
+#Adam's comment
