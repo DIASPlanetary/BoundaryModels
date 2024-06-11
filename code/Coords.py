@@ -26,6 +26,10 @@ def Coords(planet, boundary, x=False, y=False, z=False, p_dyn=False, model=''):
     
     import Jupiter_Coords
     
+    def Charlie_Issue():
+        
+        print("Charlie's issue solved")
+    
     logger = logging.getLogger(__name__)
     
     #   Check which planet we're looking at
