@@ -25,6 +25,7 @@ def Coords(planet, boundary, x=False, y=False, z=False, p_dyn=False, model=''):
     import logging
     
     import Jupiter_Coords
+    import Mars_Coords
     
     logger = logging.getLogger(__name__)
     
