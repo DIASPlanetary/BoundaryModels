@@ -54,7 +54,7 @@ def Coords(planet, boundary, x=False, y=False, z=False, p_dyn=False, model=''):
         #
         pass
     else:
-        msg = '{1} is not a recognized/supported! Returning...'
+        msg = '{1} is not a recognized/supported! Returning...'#............
         logger.warning(msg.format(planet))
         return
 
