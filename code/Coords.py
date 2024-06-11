@@ -27,6 +27,7 @@ def Coords(planet, boundary, x=False, y=False, z=False, p_dyn=False, model=''):
     import Jupiter_Coords
     
     logger = logging.getLogger(__name__)
+    print("I love IDL so much.. CMJ")
     
     #   Check which planet we're looking at
     #   I'd much rather use match/case, but Spyder/PyFlakes linting is still...
